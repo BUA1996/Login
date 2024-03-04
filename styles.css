@@ -19,19 +19,123 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 35vw;
+    display: flex;
+    flex-direction: column;
 } 
 .right {
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
+    width: 65vw;
 }
 
 .first {
-    height: 35vh;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
 }
  .second {
-    height: 30vh;
+    background-color: white;
+    height: 35vh;
+    align-items: center;
+    box-shadow: 2px 5px rgba(240, 233, 233, 0.333);
  }
 
+.form-main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #141518;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    font-size: 15px;
+    color: rgb(44, 52, 59);
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 5px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+}
  .third {
-    height: 35vh;
+    margin-left: 50px;
+    margin-top: 25px;
  }
+
+ .hyperlink {
+    margin-left: 50px;
+    margin-top: 25px;
+ }
+
+ .login {
+    font-weight: bold;
+    color: #596D48;
+    text-decoration: none;
+ }
+
+ .a-footer {
+    color: white;
+ }
+
+ .image {
+    color: white;
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+ }
+ .forfooter {
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+ }
+
+.p-footer {
+    font-size: 12px;
+}
+
+.transparent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.433);
+} 

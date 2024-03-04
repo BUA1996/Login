@@ -9,11 +9,68 @@
 </head>
 <body>
     <div class="main">
-        <div class="left"></div>
+        <div class="left">
+            <div class="image">
+                <div class="transparent">
+                    <img src="./imgaes/logo.png" alt="Logo" height="100px">
+                    <p style="font-family: Norse-Bold; font-size: 20px;">BaRoN</p>
+                </div>
+            </div>
+            <div class="forfooter">
+                <p class="p-footer">Photo by <a href="#" class="a-footer">Halie Wes</a> on <a class="a-footer" href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p>
+            </div>
+        </div>
         <div class="right">
-            <div class="first">Hi</div>
-            <div class="second">Hello</div>
-            <div class="third">World</div>
+            <div class="first">
+                <h3>This is not a real online service! You know you need something <br/>
+                    like this in your life to help you realize deepest dreams. <br/>
+                    Sign up <em>now</em> to get started. 
+                    <br/> <br/>
+                    You <em>know</em> you want to.
+                </h3>
+            </div>   
+            <form action="#" method="get">
+                <div class="second">
+                    <h3 style="margin-left: 5%;">Let's do this!</h3>
+                    <div class="form-main">
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" name="first_name">
+                            </div>
+                            <div class="form-div">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="form-div">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" required>
+                                <p id="error">* passwords do not match</p>
+                            </div>   
+                        </div>
+                        <div class="form-divs">
+                            <div class="form-div">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName" name="last_name">
+                            </div>
+                            <div class="form-div">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input type="tel" id="phone-number" name="phone-number">
+                            </div>
+                            <div class="form-div">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm-password" name="confirm-password" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third">
+                    <button type="submit" class="btn-green">Create Account</button>
+                </div>
+            </form>
+            <div class="hyperlink">
+                <p>Already have an account? <a href="#" class="login">Log In</a></p>
+            </div>
         </div>
     </div>
 </body>
