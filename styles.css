@@ -1,3 +1,10 @@
-.container {
-    background-image: url('/Login/imgaes/backg.jpg');
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../Login/fonts/Norse-Bold.otf);
 }
+
+h1 {
+    font-family: Norse-Bold, sans-serif;
+}
+
+
