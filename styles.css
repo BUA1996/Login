@@ -83,7 +83,15 @@ label {
     margin: 1px;
 }
 
+#confirmed {
+    color: green;
+    font-size: 10px;
+    margin: 1px;
+
+}
+
 .btn-green {
+    cursor: pointer;
     background-color: #596D48;
     color: white;
     border: 1px solid #596D48;
